@@ -1,0 +1,16 @@
+{
+	"Perth": {
+		"address": "Some building<br />Perth, WA6000<br />Australia",
+		"copyToDir": "C:/ftp/public/sigs",
+		"fax": "(+61/0) 8 123 2345"
+	},
+	"Glasgow": {
+		"address": "1 George Square <br />Glasgow G1 2NN",
+		"fax": "0141 100 1000"
+	},
+	"Edinburgh": {
+		"address": "1 George Street <br />Edinburgh EH1 9XX",
+		"fax": "0131 200 2000"
+	},
+
+}

@@ -1,0 +1,11 @@
+Name:{{cn}} 
+Company: {{company.name}}
+Office: {{office.name}}
+Officeuser: {{user.physicaldeliveryofficename}}
+Address: {{office.address}}
+website: {{company.website}}
+{{#if user.holidays~}}
+	HOLS: {{#each user.holidays}}
+		{{~startDate}} {{endDate~}}
+	{{/each}}
+{{/if}}

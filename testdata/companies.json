@@ -1,0 +1,19 @@
+{
+	"myBPOS": {
+		"name": "myBPOS",
+		"img": "myBPOS.png",
+		"x": "158",
+		"y": "46",
+		"colour": "#25387C",
+		"website": "www.mybpos.net",
+		"info": "MyBPOS Ltd is registered in Scotland at 1st Floor, 33 Bothwell Street, Glasgow, G2 6NL with registration number SC373257, and is part of the <a style=\"COLOR: inherit\" href=\"http://www.compellostaffinggroup.com\" ><span style=\"text-decoration:none !important;font-weight: normal !important; color:#999999;\">Compello Staffing Group</span>.</a>",
+		"linkedinIcon": "on",
+		"googlePlusIcon": "on",
+		"facebookURL": "https://www.facebook.com/mybpos",
+		"facebookIcon": "on",
+		"twitterURL": "https://twitter.com/mybpos",
+		"twitterIcon": "on",
+		"linkedinURL": "https://www.linkedin.com/company/mybpos",
+		"microdecRenameFile": "on"
+	}
+}

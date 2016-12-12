@@ -1,0 +1,66 @@
+{{#if sections.salutation}}
+Kind regards,
+
+{{/if ~}}
+{{Name}}
+{{replaceVbarWithNewline Title}}
+{{replaceBRwithVbar company}}
+{{#if officedata.address}}{{{replaceBRwithNewLine officedata.address}}}
+{{/if}}
+{{~#if directdialtext}}DD: {{directdial}}
+{{/if}}
+{{~#if telephoneNumber}}T: {{telephoneNumber}}
+{{/if }}
+{{~#if MobilePhone}}M: {{MobilePhone}}
+{{/if }}
+{{~#if pagertext}}{{PagerTitle}} {{PagerNumber}}
+{{/if }}
+{{~#if faxtext}}F: {{Fax}}
+{{/if }}
+{{~#if skypetext}}Skype: {{Skype}}
+{{/if }}
+{{~#if emailtext}}E: {{Email}}
+{{/if }}
+{{~#if websitetext}}W: {{websiteWithoutPrefix}}
+{{/if }}
+{{~#if website2text}}W: {{website2WithoutPrefix}}
+{{/if }}
+{{~#if linkedintext}}In: {{linkedinURLshort}}
+{{/if }}
+{{~#if twittertext}}Tw: {{twitterURLshort}}
+{{/if }}
+{{~#if facebooktext}}Fb:{{facebookURLshort}}
+{{/if }}
+{{~#if flickrtext}}Fr:{{flickrURLshort}}
+{{/if }}
+{{~#if googleplustext}}G+: {{googlePlusURLshort}}
+{{/if }}
+{{~#if xingtext}}Xing: {{xingURLshort}}
+{{/if }}
+{{~#if icons}}{{> fps2icons_txt}}
+{{/if }}
+{{~#if lefticons}}{{> fps2icons_txt}}
+{{/if }}
+{{~#if righticons}}{{> fps2icons_txt}}
+{{/if }}
+
+{{#if s1recruitmentAwardsNetTalent}}
+Net Talent were runners up in the S1 Jobs Recruitment Awards 2016 "Best Small Recruitment Agency" category.
+{{/if}}
+
+{{#if s1recruitmentAwardsFPS}}
+First People Solutions have made the S1 Jobs awards shortlist! We are shortlisted in five different categories: "Best Small Recruitment Agency", "Apprentice / Graduate Award", "Best Recruitment Innovation", "S1 Shine Award" and "Best Recruitment Consultant". Thanks for voting!{{/if}}
+
+{{#if s1recruitmentAwardsFPSG}}
+Vote for FPSG in the "Best Large Recruitment Agency 2016" category at the S1 recruitment awards and win an Apple watch! See http://bit.ly/s1FPSGawards16
+{{/if}}
+
+{{#if spielrow}}
+{{{replaceNewlinesWithSpace prespiel}}}{{{replaceNewlinesWithSpace spiel}}}{{{replaceNewlinesWithSpace companyInfo}}}{{/if}}
+{{#if plugrow}}
+{{{plug}}}{{/if}}
+{{!-- 
+TEMPLATE COMMENTS:
+- don't forget to look at the icons partial fps2icons_txt.... this may be where the linked in / facebook stuff comes from, not here!
+
+ --}}{{!-- Vote for First People Solutions in the "Best Large Recruitment Agency 2016" category at the S1 recruitment awards and win an Apple watch! See http://bit.ly/s1FPSawards16     --}}
